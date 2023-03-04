@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+
+.home {
+  height: 400px;
+  background-color: #121b27;
+  color: #fff;
+}
+
+.home-content {
+  padding: 10px;
+  margin-top: 100px;
+}
+/* rgba(189, 59, 210, 0.94) */
+
+.home-content h1 {
+  font-family: DM Sans;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 6.2rem;
+  color: #ffffff;
+}
+
+.home-content h1 img {
+  width: 45px;
+}
+
+.home-content h2 {
+  margin-top: 20px;
+  color: #a75fd2;
+  font-size: 40px;
+}
+
+.button-for-action {
+  display: flex;
+}
+
+.hire-me-button {
+  background-color: #121b27;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  border: 3px solid rgba(189, 59, 210, 0.94);
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.hire-me-button:hover {
+  background-color: #ffffff;
+  width: 250px;
+  color: #000;
+  transition-duration: 1s;
+  font-size: 20px;
+}
+.get-resume-button {
+  background-color: #121b27;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  border: 3px solid #5404ff;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.get-resume-button:hover {
+  background-color: #ffffff;
+  width: 250px;
+  color: #000;
+  transition-duration: 1s;
+  font-size: 20px;
+}
+
+.get-resume-button a {
+  text-decoration: none;
+}
