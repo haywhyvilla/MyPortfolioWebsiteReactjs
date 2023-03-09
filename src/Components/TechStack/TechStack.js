@@ -52,6 +52,12 @@ const TechStack = () => {
     {
       name: "Figma",
     },
+    {
+      name: "Vanilla JS",
+    },
+    {
+      name: "Figma",
+    },
   ];
 
   const colors = [
@@ -71,6 +77,8 @@ const TechStack = () => {
     "#FF3633",
     "#9C33FF",
     "#33FFF6",
+    "#33FF58",
+    "#FF33C4",
   ];
   return (
     <div className="container techstack-section">
@@ -81,8 +89,14 @@ const TechStack = () => {
 
       <div className="row">
         {data.map((item, index) => (
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={index}>
             <div className="tech-content">
+              <span
+                className="tech-number"
+                style={{ backgroundColor: colors[index] }}
+              >
+                {index + 1}
+              </span>
               <p>{item.name}</p>
             </div>
           </div>
