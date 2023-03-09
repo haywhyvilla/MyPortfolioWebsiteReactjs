@@ -1,6 +1,7 @@
 .techstack-section {
   margin-top: 40px;
   height: auto;
+  margin-bottom: 40px;
 }
 
 .section-title h2 {
@@ -43,6 +44,7 @@
   justify-content: center;
   display: block;
   margin: 0 auto;
+  margin-top: -30px;
   line-height: 50px;
 }
 

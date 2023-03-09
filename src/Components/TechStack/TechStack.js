@@ -108,7 +108,12 @@ const TechStack = () => {
           </div>
         ))}
       </div>
-      <span className="load-more">Load More</span>
+
+      {showMoreTechStack >= data.length ? null : (
+        <span className="load-more" onClick={loadMore}>
+          Load More
+        </span>
+      )}
     </div>
   );
 };
