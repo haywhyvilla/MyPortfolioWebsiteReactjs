@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./TechStack.css";
 
 const TechStack = () => {
@@ -80,6 +80,12 @@ const TechStack = () => {
     "#33FF58",
     "#FF33C4",
   ];
+
+  const [showMoreTechStack, setMoreTechStack] = useState(9);
+
+  const loadMore = () => {
+    setMoreTechStack((prev) => prev + 3);
+  };
   return (
     <div className="container techstack-section">
       <div className="section-title">
@@ -88,7 +94,7 @@ const TechStack = () => {
       </div>
 
       <div className="row">
-        {data.map((item, index) => (
+        {data.slice(0, showMoreTechStack).map((item, index) => (
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={index}>
             <div className="tech-content">
               <span
@@ -102,6 +108,7 @@ const TechStack = () => {
           </div>
         ))}
       </div>
+      <span className="load-more">Load More</span>
     </div>
   );
 };
