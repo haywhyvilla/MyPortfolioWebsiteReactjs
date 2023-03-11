@@ -1,6 +1,12 @@
 import React from "react";
 import "./Projects.css";
 import ProjectSite from "./ProjectSite";
+import one from "../../Image/one.PNG";
+import two from "../../Image/two.PNG";
+import three from "../../Image/three.PNG";
+import four from "../../Image/four.PNG";
+import five from "../../Image/five.PNG";
+import six from "../../Image/six.PNG";
 
 const Projects = () => {
   const data = [
@@ -8,89 +14,38 @@ const Projects = () => {
       Des: "oyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers.",
       ProjectLink: "https://myfrontendintership.netlify.app/",
       GithubLink: "https://github.com/haywhyvilla/FIntechfrontendtask",
-      techused: [
-        {
-          techname: "ReactJS",
-        },
-        {
-          techname: "CSS",
-        },
-      ],
+      image: one,
     },
     {
       Des: "Reports of transactions.",
       ProjectLink: "https://pavilionstage3project.netlify.app/",
       GithubLink: "https://github.com/haywhyvilla/PavilionFrontendTask",
-      techused: [
-        {
-          techname: "ReactJS",
-        },
-        {
-          techname: "CSS",
-        },
-      ],
+      image: two,
     },
     {
       Des: "A feature that displays a list of NFTs",
       ProjectLink: "https://myfrontendintership.netlify.app/",
       GithubLink: "https://github.com/haywhyvilla/AlturaFrontendTask",
-      techused: [
-        {
-          techname: "ReactJS",
-        },
-        {
-          techname: "CSS",
-        },
-      ],
+      image: three,
     },
 
     {
       Des: "oyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers.",
       ProjectLink: "https://crappogroupwork.netlify.app/",
       GithubLink: "https://github.com/haywhyvilla/FIntechfrontendtask",
-      techused: [
-        {
-          techname: "HTML",
-        },
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "Vanilla JavaScript",
-        },
-      ],
+      image: four,
     },
     {
       Des: "oyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers.",
       ProjectLink: "https://zuriteamgiraffew2-project.000webhostapp.com/",
       GithubLink: "https://github.com/haywhyvilla/FIntechfrontendtask",
-      techused: [
-        {
-          techname: "HTML",
-        },
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "Vanilla JavaScript",
-        },
-      ],
+      image: five,
     },
     {
       Des: "oyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers.",
       ProjectLink: "https://olatfood.netlify.app/",
       GithubLink: "https://github.com/haywhyvilla/FIntechfrontendtask",
-      techused: [
-        {
-          techname: "HtML",
-        },
-        {
-          techname: "CSS",
-        },
-        {
-          techname: "Vanilla JavaScript",
-        },
-      ],
+      image: six,
     },
   ];
   return (
