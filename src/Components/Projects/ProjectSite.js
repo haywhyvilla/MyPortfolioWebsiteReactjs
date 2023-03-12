@@ -14,12 +14,12 @@ const ProjectSite = ({ Des, ProjectLink, GithubLink, image }) => {
         </div>
 
         <div>
-          <h5>
+          <a href={ProjectLink}>
             Live Site <FiExternalLink />
-          </h5>
-          <h5>
+          </a>
+          <a target="_" href={GithubLink}>
             GitHub Link <FiExternalLink />
-          </h5>
+          </a>
         </div>
       </div>
     </div>
