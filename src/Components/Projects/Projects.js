@@ -11,7 +11,7 @@ import six from "../../Image/six.PNG";
 const Projects = () => {
   const data = [
     {
-      Des: "oyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers.",
+      Des: "Empowering businesses to offer digital programs to customers.",
       ProjectLink: "https://myfrontendintership.netlify.app/",
       GithubLink: "https://github.com/haywhyvilla/FIntechfrontendtask",
       image: one,
@@ -30,34 +30,37 @@ const Projects = () => {
     },
 
     {
-      Des: "oyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers.",
+      Des: "Fastest & secure platform to invest in crypto.",
       ProjectLink: "https://crappogroupwork.netlify.app/",
-      GithubLink: "https://github.com/haywhyvilla/FIntechfrontendtask",
+      GithubLink: "https://github.com/haywhyvilla/CRAPPOprojectk",
       image: four,
     },
     {
-      Des: "oyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers.",
+      Des: "Credit card design library.",
       ProjectLink: "https://zuriteamgiraffew2-project.000webhostapp.com/",
-      GithubLink: "https://github.com/haywhyvilla/FIntechfrontendtask",
+      GithubLink: "https://github.com/haywhyvilla/Team-Giraffew2",
       image: five,
     },
     {
-      Des: "oyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers.",
+      Des: "AI food delivery.",
       ProjectLink: "https://olatfood.netlify.app/",
-      GithubLink: "https://github.com/haywhyvilla/FIntechfrontendtask",
+      GithubLink: "https://github.com/haywhyvilla/Olatfood-PROJECT",
       image: six,
     },
   ];
   return (
     <div className="container">
-      <div className="section-title">
+      <div className="section-title bottom">
         <h2>Projects</h2>
         <span className="line"></span>
       </div>
 
       <div className="row">
         {data.map((item, index) => (
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" key={index}>
+          <div
+            className="col-xl-6 col-lg-6 col-md-6 col-sm-12 bottom left"
+            key={index}
+          >
             <ProjectSite {...item} />
           </div>
         ))}
