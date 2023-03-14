@@ -50,3 +50,35 @@
   background: #121b27;
   transition-duration: 1s;
 }
+
+.connect h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.connect h5 {
+  color: #686868;
+}
+
+.text a {
+  color: #121b27;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.text svg {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+  margin-top: 30px;
+}
+
+.socials svg {
+  color: #121b27;
+  font-size: 30px;
+}
