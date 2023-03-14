@@ -25,7 +25,13 @@ const SidebarList = ({ expandSidebar }) => {
 
           <ul>
             <li className="nav-item">
-              <Link to="home">
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcHome size={25} /> Home
               </Link>
             </li>
