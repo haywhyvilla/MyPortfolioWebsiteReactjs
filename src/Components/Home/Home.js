@@ -5,7 +5,7 @@ import love from "../../Image/Vector.png";
 import MyCv from "./MyResume.pdf";
 const Home = () => {
   return (
-    <div className="container-fluid home">
+    <div className="container-fluid home" id="home">
       <div className="container home-content">
         <h1>
           Hello <img alt="vector" src={love} />, I'm a
