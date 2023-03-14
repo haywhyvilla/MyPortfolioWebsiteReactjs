@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import { RiSendPlaneLine } from "react-icons/ri";
 
 const Contact = () => {
   return (
@@ -18,6 +19,15 @@ const Contact = () => {
               <div className="contact-form">
                 <label className="form-label">E-mail</label>
                 <input type="text" className="form-control" />
+              </div>
+              <div className="contact-form">
+                <label className="form-label">Message</label>
+                <textarea rows="4" type="text" className="form-control" />
+              </div>
+              <div className="button-submit">
+                <p>
+                  Send <RiSendPlaneLine />
+                </p>
               </div>
             </form>
           </div>

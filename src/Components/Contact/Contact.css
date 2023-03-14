@@ -1,6 +1,10 @@
 .contact-section {
-  height: 1000px;
+  height: 600px;
   padding: 0px 80px;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 244, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  margin-bottom: 50px;
 }
 
 .contact-form input {
@@ -9,4 +13,40 @@
   margin-top: 10px;
   width: 90%;
   margin-bottom: 20px;
+}
+
+.contact-form textarea {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+.button-submit p {
+  background: linear-gradient(
+    112.92deg,
+    #5404ff 18.35%,
+    rgba(189, 59, 210, 0.94) 71.49%
+  );
+  padding: 10px;
+  color: #ffffff;
+  width: 50%;
+  margin-top: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 10rem;
+  border: none;
+}
+
+.button-submit p svg {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.button-submit p:hover {
+  background: #121b27;
+  transition-duration: 1s;
 }
