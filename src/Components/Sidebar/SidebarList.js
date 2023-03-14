@@ -36,27 +36,49 @@ const SidebarList = ({ expandSidebar }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="about">
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcNightPortrait size={25} /> About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="project">
+              <Link
+                to="project"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcFactory size={25} /> Work Experience
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="stack">
+              <Link
+                to="stack"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <MdBiotech size={25} color="#a75fd2" /> Tech Stack
               </Link>
             </li>
             <li className="nav-item">
-              <Link>
-                <MdCastForEducation size={25} /> Education
-              </Link>
+              <MdCastForEducation size={25} /> Education
             </li>
             <li className="nav-item">
-              <Link to="project">
+              <Link
+                to="project"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcTodoList size={25} /> Projects
               </Link>
             </li>
@@ -66,7 +88,13 @@ const SidebarList = ({ expandSidebar }) => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="contact">
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcContacts size={25} /> Contact
               </Link>
             </li>

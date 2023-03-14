@@ -31,3 +31,11 @@
 .navbar-items-only-icons ul li svg {
   margin-left: 10px;
 }
+
+.navbar-items ul li a {
+  text-decoration: none;
+}
+.nav-item .active {
+  border-left: 2px solid #a75fd2;
+  color: #a75fd2;
+}
