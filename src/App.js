@@ -5,6 +5,7 @@ import TechStack from "./Components/TechStack/TechStack";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
 import ScrollToTop from "react-scroll-to-top";
+import "./App.css";
 
 const App = () => {
   return (

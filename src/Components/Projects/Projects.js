@@ -49,7 +49,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="container">
+    <div className="container section-project">
       <div className="section-title bottom">
         <h2>Projects</h2>
         <span className="line"></span>
