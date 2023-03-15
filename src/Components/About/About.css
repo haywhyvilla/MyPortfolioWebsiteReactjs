@@ -36,3 +36,9 @@
   margin: 1px auto;
   background-color: #121b27;
 }
+
+@media (max-width: 1000px) {
+  .about-image {
+    display: none;
+  }
+}
