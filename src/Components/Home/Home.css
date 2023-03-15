@@ -78,3 +78,9 @@
 .get-resume-button a {
   text-decoration: none;
 }
+
+@media (max-width: 1000px) {
+  .home-content {
+    margin-top: 30px;
+  }
+}
