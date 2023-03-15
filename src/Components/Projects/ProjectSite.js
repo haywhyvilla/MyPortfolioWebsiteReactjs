@@ -10,7 +10,7 @@ const ProjectSite = ({ Des, ProjectLink, GithubLink, image }) => {
           <p>{Des}</p>
         </div>
         <div>
-          <img src={image} />
+          <img src={image} alt="just-me" />
         </div>
 
         <div>
