@@ -74,3 +74,9 @@
   background-color: rgba(189, 59, 210, 0.94);
   transition-duration: 1s;
 }
+
+@media (max-width: 1000px) {
+  .techstack-section {
+    margin-left: 10px;
+  }
+}

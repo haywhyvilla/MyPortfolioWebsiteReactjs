@@ -84,3 +84,9 @@
   color: #121b27;
   font-size: 30px;
 }
+
+@media (max-width: 1000px) {
+  .contact-section {
+    margin-left: 10px;
+  }
+}
