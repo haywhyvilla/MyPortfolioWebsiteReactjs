@@ -6,10 +6,12 @@ import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
 import ScrollToTop from "react-scroll-to-top";
 import "./App.css";
+import NavbarMobileVeiw from "./Components/Sidebar/NavbarMobileVeiw";
 
 const App = () => {
   return (
     <>
+      <NavbarMobileVeiw />
       <Sidebar />
       <About />
       <TechStack />

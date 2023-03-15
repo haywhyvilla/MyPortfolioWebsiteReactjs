@@ -1,0 +1,22 @@
+.mobile-veiw-navber {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-header {
+  width: 100%;
+  background-color: rgba(189, 59, 210, 0.94);
+  color: #ffffff;
+}
+
+.navbar-header p svg {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+  .mobile-veiw-navber {
+    display: none;
+  }
+}
