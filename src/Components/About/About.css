@@ -38,7 +38,7 @@
   background-color: #121b27;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   .about-image {
     display: none;
   }
