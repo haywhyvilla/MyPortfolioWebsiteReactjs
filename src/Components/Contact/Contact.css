@@ -88,5 +88,18 @@
 @media (max-width: 1000px) {
   .contact-section {
     margin: 50px auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact-section {
+    margin: 0px auto;
+    height: auto;
+    padding: 0 25px;
+  }
+
+  .connect {
+    margin: 20px 0px;
   }
 }

@@ -22,7 +22,9 @@
   height: auto;
   width: 210px;
   background-color: #a75fd2;
-  margin-top: 1px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .mobile-nav ul li {
