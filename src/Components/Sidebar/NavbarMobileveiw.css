@@ -14,6 +14,36 @@
 .navbar-header p svg {
   margin-left: 10px;
   cursor: pointer;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.mobile-nav {
+  height: auto;
+  width: 210px;
+  background-color: #a75fd2;
+  margin-top: 1px;
+}
+
+.mobile-nav ul li {
+  color: #121b27;
+  list-style-type: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.mobile-nav ul li a {
+  text-decoration: none;
+  color: #121b27;
+}
+
+.nav-item-mobileview .active {
+  color: #ffffff;
+  background-color: #121b27;
+  border-radius: 90px;
+  padding: 5px;
+  width: 100%;
 }
 
 @media (min-width: 1000px) {
