@@ -8,6 +8,7 @@
   width: 100%;
   background-color: rgba(189, 59, 210, 0.94);
   color: #ffffff;
+  padding: 5px;
 }
 
 .navbar-header p svg {
