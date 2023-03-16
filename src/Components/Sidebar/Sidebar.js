@@ -5,7 +5,7 @@ import "./Sidebar.css";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import SidebarList from "./SidebarList";
 
-const Sidebar = () => {
+const Sidebar = ({ theme, changeTheme }) => {
   const [expendSidebar, setExpandSidebar] = useState(true);
 
   const handleExpandClick = () => {
@@ -27,7 +27,7 @@ const Sidebar = () => {
       </div>
 
       <div className="container-fluid">
-        <Home />
+        <Home changeTheme={changeTheme} theme={theme} />
       </div>
     </div>
   );

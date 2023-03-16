@@ -18,9 +18,9 @@ const App = () => {
   };
   return (
     <ThemeContext.Provider value={{ theme, changeTheme }}>
-      <div>
+      <div id={theme}>
         <NavbarMobileVeiw />
-        <Sidebar />
+        <Sidebar changeTheme={changeTheme} theme={theme} />
         <About />
         <TechStack />
         <Projects />

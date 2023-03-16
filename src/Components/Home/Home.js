@@ -3,9 +3,21 @@ import "./Home.css";
 import Typewriter from "typewriter-effect";
 import love from "../../Image/Vector.png";
 import MyCv from "./MyResume.pdf";
-const Home = () => {
+import { BsFillMoonStarsFill, BsSun } from "react-icons/bs";
+const Home = ({ theme, changeTheme }) => {
   return (
     <div className="container-fluid home" id="home">
+      <div className="theme-change" onClick={changeTheme}>
+        {theme === "light" ? (
+          <p>
+            <BsFillMoonStarsFill />{" "}
+          </p>
+        ) : (
+          <p>
+            <BsSun />
+          </p>
+        )}
+      </div>
       <div className="container home-content">
         <h1>
           Hello <img alt="vector" src={love} />, I'm a
