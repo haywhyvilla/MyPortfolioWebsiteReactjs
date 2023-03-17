@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import love from "../../Image/Vector.png";
 import MyCv from "./MyResume.pdf";
 import { BsFillMoonStarsFill, BsSun } from "react-icons/bs";
+import ball from "../../Image/Star1.png";
 const Home = ({ theme, changeTheme }) => {
   return (
     <div className="container-fluid home" id="home">
@@ -13,7 +14,7 @@ const Home = ({ theme, changeTheme }) => {
             <BsFillMoonStarsFill />{" "}
           </p>
         ) : (
-          <p>
+          <p className="sun-light-icon">
             <BsSun />
           </p>
         )}
@@ -46,6 +47,7 @@ const Home = ({ theme, changeTheme }) => {
             </a>
           </div>
         </div>
+        <img className="baller" alt="balling" src={ball} />
       </div>
     </div>
   );

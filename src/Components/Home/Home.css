@@ -10,6 +10,7 @@
   padding: 10px;
   margin-top: 100px;
   margin-left: 300px;
+  position: relative;
 }
 /* rgba(189, 59, 210, 0.94) */
 
@@ -79,6 +80,13 @@
   text-decoration: none;
 }
 
+.baller {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  animation: rotation infinite 5s linear;
+}
+
 .theme-change {
   justify-content: center;
   height: 50px;
@@ -97,6 +105,19 @@
   z-index: 1;
 }
 
+.sun-light-icon {
+  animation: rotation infinite 5s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
 @media (max-width: 1000px) {
   .home-content {
     margin: 30px auto;
