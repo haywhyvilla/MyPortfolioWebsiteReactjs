@@ -5,6 +5,7 @@ import love from "../../Image/Vector.png";
 import MyCv from "./MyResume.pdf";
 import { BsFillMoonStarsFill, BsSun } from "react-icons/bs";
 import ball from "../../Image/Star1.png";
+import Fade from "react-reveal/Fade";
 const Home = ({ theme, changeTheme }) => {
   return (
     <div className="container-fluid home" id="home">
@@ -20,24 +21,26 @@ const Home = ({ theme, changeTheme }) => {
         )}
       </div>
       <div className="container home-content">
-        <h1>
-          Hello <img alt="vector" src={love} />, I'm a
-        </h1>
+        <Fade left>
+          <h1>
+            Hello <img alt="vector" src={love} />, I'm a
+          </h1>
 
-        <h2>
-          <Typewriter
-            options={{
-              strings: [
-                "Frontend Developer",
-                "Software Engineer",
-                "MERN Stack Developer",
-              ],
-              autoStart: true,
-              loop: true,
-              delay: 5,
-            }}
-          />
-        </h2>
+          <h2>
+            <Typewriter
+              options={{
+                strings: [
+                  "Frontend Developer",
+                  "Software Engineer",
+                  "MERN Stack Developer",
+                ],
+                autoStart: true,
+                loop: true,
+                delay: 5,
+              }}
+            />
+          </h2>
+        </Fade>
 
         <div className="button-for-action">
           <div className="hire-me-button">Hire Me</div>
