@@ -48,6 +48,10 @@
   border: none;
 }
 
+#dark .button-submit p {
+  background: #121b27;
+}
+
 .button-submit p svg {
   color: #ffffff;
   margin-top: 5px;
@@ -69,7 +73,7 @@
 }
 
 #dark .connect h5 {
-  color: #121b27;
+  color: #ffffff;
 }
 
 .text a {
@@ -78,6 +82,10 @@
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
+}
+
+#dark .text a {
+  color: #ffffff;
 }
 .text svg {
   margin-right: 10px;
@@ -93,6 +101,10 @@
 .socials svg {
   color: #121b27;
   font-size: 30px;
+}
+
+#dark .socials svg {
+  color: #ffffff;
 }
 
 @media (max-width: 1000px) {
