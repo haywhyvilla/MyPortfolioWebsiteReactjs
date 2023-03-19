@@ -28,6 +28,7 @@
 
 #dark .tech-content:hover {
   background-color: #121b27;
+  transition-duration: 1s;
 }
 
 .tech-content-marked {
