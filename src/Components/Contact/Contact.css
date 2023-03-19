@@ -62,6 +62,10 @@
   color: #686868;
 }
 
+#dark .connect h5 {
+  color: #121b27;
+}
+
 .text a {
   color: #121b27;
   display: block;
