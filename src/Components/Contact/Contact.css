@@ -23,11 +23,21 @@
   margin-bottom: 20px;
 }
 
+#dark .contact-form input {
+  background-color: #434242;
+  border: none;
+}
+
 .contact-form textarea {
   border-radius: 10px;
   margin-top: 10px;
   width: 90%;
   margin-bottom: 40px;
+}
+
+#dark .contact-form textarea {
+  background-color: #434242;
+  border: none;
 }
 
 .button-submit p {
@@ -49,7 +59,7 @@
 }
 
 #dark .button-submit p {
-  background: #121b27;
+  background: #434242;
 }
 
 .button-submit p svg {
@@ -63,6 +73,9 @@
   transition-duration: 1s;
 }
 
+#dark .button-submit p:hover {
+  background: #121b27;
+}
 .connect h2 {
   font-size: 35px;
   font-weight: 700;
