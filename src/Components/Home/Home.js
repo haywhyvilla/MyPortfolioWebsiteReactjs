@@ -21,7 +21,7 @@ const Home = ({ theme, changeTheme }) => {
         )}
       </div>
       <div className="container home-content">
-        <Fade left>
+        <Fade right>
           <h1>
             Hello <img alt="vector" src={love} />, I'm a
           </h1>
@@ -42,14 +42,16 @@ const Home = ({ theme, changeTheme }) => {
           </h2>
         </Fade>
 
-        <div className="button-for-action">
-          <div className="hire-me-button">Hire Me</div>
-          <div className="get-resume-button">
-            <a href={MyCv} download="Ayobami_cv">
-              Get Resume
-            </a>
+        <Fade bottom>
+          <div className="button-for-action">
+            <div className="hire-me-button">Hire Me</div>
+            <div className="get-resume-button">
+              <a href={MyCv} download="Ayobami_cv">
+                Get Resume
+              </a>
+            </div>
           </div>
-        </div>
+        </Fade>
         <img className="baller" alt="balling" src={ball} />
       </div>
     </div>
