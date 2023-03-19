@@ -5,7 +5,16 @@
 
   margin-top: 50px;
   height: 400px;
-  margin-left: 200px;
+  margin-left: 250px;
+  padding: 0px 50px;
+}
+
+#dark .about-section {
+  box-shadow: none;
+  background-color: #434242;
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
 
 .about-image img {
@@ -28,6 +37,10 @@
 .description {
   font-size: 20px;
   color: #686868;
+}
+
+#dark .description {
+  color: #121b27;
 }
 
 .line {

@@ -87,6 +87,12 @@
   animation: rotation infinite 5s linear;
 }
 
+@media (max-width: 450px) {
+  .baller {
+    bottom: 0;
+  }
+}
+
 .theme-change {
   justify-content: center;
   height: 50px;
