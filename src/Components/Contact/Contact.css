@@ -26,6 +26,7 @@
 #dark .contact-form input {
   background-color: #434242;
   border: none;
+  color: #ffffff;
 }
 
 .contact-form textarea {
@@ -38,6 +39,7 @@
 #dark .contact-form textarea {
   background-color: #434242;
   border: none;
+  color: #ffffff;
 }
 
 .button-submit p {
