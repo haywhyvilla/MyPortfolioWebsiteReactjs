@@ -19,7 +19,7 @@
 }
 
 #dark .tech-content {
-  background-color: #434242;
+  background-color: #17202a;
   color: #ffffff;
   box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
@@ -84,7 +84,7 @@
 }
 
 #dark .load-more {
-  background-color: #434242;
+  background-color: #17202a;
 }
 
 .load-more:hover {

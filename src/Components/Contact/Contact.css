@@ -24,7 +24,7 @@
 }
 
 #dark .contact-form input {
-  background-color: #434242;
+  background-color: #17202a;
   border: none;
   color: #ffffff;
 }
@@ -37,7 +37,7 @@
 }
 
 #dark .contact-form textarea {
-  background-color: #434242;
+  background-color: #17202a;
   border: none;
   color: #ffffff;
 }
@@ -61,7 +61,7 @@
 }
 
 #dark .button-submit p {
-  background: #434242;
+  background: #17202a;
 }
 
 .button-submit p svg {
