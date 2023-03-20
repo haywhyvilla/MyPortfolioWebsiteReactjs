@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./TechStack.css";
+import Fade from "react-reveal/Fade";
 
 const TechStack = () => {
   const data = [
@@ -95,23 +96,25 @@ const TechStack = () => {
 
       <div className="row">
         {data.slice(0, showMoreTechStack).map((item, index) => (
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={index}>
-            <div
-              className={
-                index === 0
-                  ? "tech-content-marked tech-content"
-                  : "tech-content"
-              }
-            >
-              <span
-                className="tech-number"
-                style={{ backgroundColor: colors[index] }}
+          <Fade right>
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={index}>
+              <div
+                className={
+                  index === 0
+                    ? "tech-content-marked tech-content"
+                    : "tech-content"
+                }
               >
-                {index + 1}
-              </span>
-              <p>{item.name}</p>
+                <span
+                  className="tech-number"
+                  style={{ backgroundColor: colors[index] }}
+                >
+                  {index + 1}
+                </span>
+                <p>{item.name}</p>
+              </div>
             </div>
-          </div>
+          </Fade>
         ))}
       </div>
 
