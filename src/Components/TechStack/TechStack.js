@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./TechStack.css";
 import Fade from "react-reveal/Fade";
+import { Zoom } from "react-reveal";
 
 const TechStack = () => {
   const data = [
@@ -119,9 +120,11 @@ const TechStack = () => {
       </div>
 
       {showMoreTechStack >= data.length ? null : (
-        <span className="load-more" onClick={loadMore}>
-          Load More
-        </span>
+        <Zoom>
+          <span className="load-more" onClick={loadMore}>
+            Load More
+          </span>
+        </Zoom>
       )}
     </div>
   );
