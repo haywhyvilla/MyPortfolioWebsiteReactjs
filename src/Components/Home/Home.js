@@ -23,7 +23,7 @@ const Home = ({ theme, changeTheme }) => {
       <div className="container home-content">
         <Fade right>
           <h1>
-            Hello <img alt="vector" src={love} />, I'm a
+            Hello <img alt="vector" src={love} />, I'm Ayobami
           </h1>
 
           <h2>
