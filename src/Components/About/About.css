@@ -59,7 +59,7 @@
   background-color: #ffffff;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .about-image {
     display: none;
   }
