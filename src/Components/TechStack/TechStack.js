@@ -58,7 +58,7 @@ const TechStack = () => {
       name: "Vanilla JS",
     },
     {
-      name: "Figma",
+      name: "NodeJs",
     },
   ];
 
